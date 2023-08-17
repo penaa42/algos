@@ -3,9 +3,9 @@ function remove_blanks(str){
     let arr = str.split(" ")
     console.log(arr.join(""))
 }
-// remove_blanks("Pl ayTha tF u nkyM usi c")
+remove_blanks("Pl ayTha tF u nkyM usi c")
 // expected output: PlayThatFunkyMusic
-// remove_blanks("I can not BELIEVE it's not BUTTER")
+remove_blanks("I can not BELIEVE it's not BUTTER")
 // expected output: IcannotBELIEVEit'snotBUTTER
 
 
@@ -23,9 +23,9 @@ function get_digits(str){
     console.log(number.join(""))
 }
 
-// get_digits("abc8c0d1ngd0j0!8")
+get_digits("abc8c0d1ngd0j0!8")
 // expected output: 801008
-// get_digits("Os1a3y5w7h9a2t4?6!8?0")
+get_digits("Os1a3y5w7h9a2t4?6!8?0")
 // expected output: 1357924680
 
 
@@ -47,9 +47,9 @@ function acronym(string){
     console.log(final.toUpperCase())
 }
 
-// acronym("there's no free lunk - gotta pay yer way.")
+acronym("there's no free lunk - gotta pay yer way.")
 // expected output: "TNFL-GPYW"
-// acronym("Live from New York, it's Saturday Night!")
+acronym("Live from New York, it's Saturday Night!")
 // expected output: "LFNYISN"
 
 
@@ -65,9 +65,9 @@ function countNonSpaces(string){
     console.log(count)
 }
 
-// countNonSpaces("Honey pie, you are driving me crazy")
+countNonSpaces("Honey pie, you are driving me crazy")
 // expected output: 29
-// countNonSpaces("Hello world!")
+countNonSpaces("Hello world!")
 // expected output: 11
 
 
